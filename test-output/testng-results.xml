@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="21" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T13:44:38Z" name="Suite" finished-at="2023-09-12T13:44:49Z" duration-ms="11013">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T13:44:38Z" name="API Test" finished-at="2023-09-12T13:44:49Z" duration-ms="11013">
+      <class name="TestCases.Booking_Updation_TC">
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:TestCases.Booking_Updation_TC@5b3f61ff]" started-at="2023-09-12T13:44:46Z" name="beforClass" finished-at="2023-09-12T13:44:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.Booking_Updation_TC@5b3f61ff]" started-at="2023-09-12T13:44:46Z" name="beforeMethod" finished-at="2023-09-12T13:44:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="update_booking(java.util.Hashtable, org.testng.ITestContext)[pri:0, instance:TestCases.Booking_Updation_TC@5b3f61ff]" started-at="2023-09-12T13:44:46Z" name="update_booking" data-provider="dp" finished-at="2023-09-12T13:44:48Z" duration-ms="1567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{totalprice=111, expectedErrorCode=, depositpaid=true, checkout=2019-01-01, firstname=Kevin, lastname=Brown, expectedMessage=, additionalneeds=Lunch, endpoint=booking, checkin=2018-01-01}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f2e97e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.Booking_Updation_TC@5b3f61ff]" started-at="2023-09-12T13:44:48Z" name="afterMethod" finished-at="2023-09-12T13:44:48Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.Booking_Updation_TC -->
+      <class name="TestCases.Booking_Deletion_TC">
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:TestCases.Booking_Deletion_TC@3e2059ae]" started-at="2023-09-12T13:44:48Z" name="beforClass" finished-at="2023-09-12T13:44:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.Booking_Deletion_TC@3e2059ae]" started-at="2023-09-12T13:44:48Z" name="beforeMethod" finished-at="2023-09-12T13:44:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="delete_booking(java.util.Hashtable, org.testng.ITestContext)[pri:0, instance:TestCases.Booking_Deletion_TC@3e2059ae]" started-at="2023-09-12T13:44:48Z" name="delete_booking" data-provider="dp" finished-at="2023-09-12T13:44:49Z" duration-ms="1491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expectedMessage=, expectedErrorCode=, endpoint=booking}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f2e97e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.Booking_Deletion_TC@3e2059ae]" started-at="2023-09-12T13:44:49Z" name="afterMethod" finished-at="2023-09-12T13:44:49Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.Booking_Deletion_TC -->
+      <class name="TestCases.Booking_GetRequest_TC">
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:TestCases.Booking_GetRequest_TC@57ad2aa7]" started-at="2023-09-12T13:44:44Z" name="beforClass" finished-at="2023-09-12T13:44:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.Booking_GetRequest_TC@57ad2aa7]" started-at="2023-09-12T13:44:44Z" name="beforeMethod" finished-at="2023-09-12T13:44:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="get_booking(java.util.Hashtable, org.testng.ITestContext)[pri:0, instance:TestCases.Booking_GetRequest_TC@57ad2aa7]" started-at="2023-09-12T13:44:44Z" name="get_booking" data-provider="dp" finished-at="2023-09-12T13:44:46Z" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expectedMessage=, expectedErrorCode=, endpoint=booking}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f2e97e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.Booking_GetRequest_TC@57ad2aa7]" started-at="2023-09-12T13:44:46Z" name="afterMethod" finished-at="2023-09-12T13:44:46Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.Booking_GetRequest_TC -->
+      <class name="TestCases.Booking_Creation_TC">
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:TestCases.Booking_Creation_TC@1722011b]" started-at="2023-09-12T13:44:42Z" name="beforClass" finished-at="2023-09-12T13:44:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.Booking_Creation_TC@1722011b]" started-at="2023-09-12T13:44:42Z" name="beforeMethod" finished-at="2023-09-12T13:44:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="create_booking(java.util.Hashtable, org.testng.ITestContext)[pri:0, instance:TestCases.Booking_Creation_TC@1722011b]" started-at="2023-09-12T13:44:42Z" name="create_booking" data-provider="dp" finished-at="2023-09-12T13:44:44Z" duration-ms="2034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{totalprice=111, expectedErrorCode=, depositpaid=true, checkout=2019-01-01, firstname=Jim, lastname=Brown, expectedMessage=, additionalneeds=Breakfast, endpoint=booking, checkin=2018-01-01}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f2e97e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.Booking_Creation_TC@1722011b]" started-at="2023-09-12T13:44:44Z" name="afterMethod" finished-at="2023-09-12T13:44:44Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.Booking_Creation_TC -->
+      <class name="TestCases.Generate_Token_TC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:37Z" name="setup" finished-at="2023-09-12T13:44:38Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="configure()[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:38Z" name="configure" finished-at="2023-09-12T13:44:38Z" depends-on-methods="com.Booker.Setup.BaseSetup.setup" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:38Z" name="beforeTest" finished-at="2023-09-12T13:44:38Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:38Z" name="beforClass" finished-at="2023-09-12T13:44:38Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:38Z" name="beforeMethod" finished-at="2023-09-12T13:44:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="create_token(java.util.Hashtable, org.testng.ITestContext)[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:38Z" name="create_token" data-provider="dp" finished-at="2023-09-12T13:44:42Z" duration-ms="3669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=password123, expectedMessage=, expectedErrorCode=, endpoint=auth, username=admin}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f2e97e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_token -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:42Z" name="afterMethod" finished-at="2023-09-12T13:44:42Z" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCases.Generate_Token_TC@6e15fe2]" started-at="2023-09-12T13:44:49Z" name="afterSuite" finished-at="2023-09-12T13:44:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestCases.Generate_Token_TC -->
+    </test> <!-- API Test -->
+  </suite> <!-- Suite -->
+</testng-results>

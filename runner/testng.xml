@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+
+	<listeners>
+		<listener class-name="com.Booker.TestUtils.CustomListners"></listener>
+		<listener class-name="com.Booker.TestUtils.RetryListeners"></listener>
+	</listeners>
+	<parameter name="env" value="QA" />
+	<test name="API Test">
+		<!-- <parameter name="env" value="QA"/> -->
+		<!--  <groups>
+ 	<run>
+ 		<include name="Smoke"/>
+  	</run>
+ </groups> -->
+		<classes>
+		<class name="TestCases.Generate_Token_TC"/> 
+		<class name="TestCases.Booking_Creation_TC"/>
+		<class name="TestCases.Booking_GetRequest_TC"/> 
+		<class name="TestCases.Booking_Updation_TC"/> 
+		<class name="TestCases.Booking_Deletion_TC"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
